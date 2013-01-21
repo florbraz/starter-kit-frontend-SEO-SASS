@@ -1,0 +1,37 @@
+@mixin submitRosa { background:url(../img/bg_buttons.png) repeat-x top #ad0030; text-align:center; border:1px solid #e00c40; box-shadow:1px 1px 0 #6a001c; float:left; width:65px; height:33px; border-radius:4px; color:#fff; font-size:13px; font-family:$fontePequena; font-weight:normal;  text-transform:lowercase;  @include pie;
+	&:hover{ background-position:left bottom; background-color:#ad0030 }
+	&:active, &.active { background-image:url(../img/bg_buttonActive.png); background-color:#250008; border-color:#71001d; box-shadow:1px 1px 0 #39000d } 
+}
+
+@mixin botaoRosa { background:url(../img/bg_buttons.png) repeat-x top #ad0030; text-align:center; border:1px solid #e00c40; box-shadow:1px 1px 0 #6a001c; float:left; width:auto; height:15px; padding:10px 20px; border-radius:4px; color:#fff; font-size:14px; font-family:$fontePequena; font-weight:normal; text-decoration:none; line-height:1; text-transform:lowercase; @include pie;
+	&:hover { background-position:left bottom; background-color:#ad0030  }
+	&:active, &.active { background-image:url(../img/bg_buttonActive.png); background-color:#250008; border-color:#71001d; box-shadow:1px 1px 0 #39000d }
+}
+
+@mixin botaoCinza { background:#999; text-align:center; border:1px solid #bbb; box-shadow:1px 1px 0 #888; float:left; width:auto; height:15px; padding:10px 20px; border-radius:4px; color:#fff; font-size:14px; font-family:$fontePequena; font-weight:normal; text-decoration:none; line-height:1; text-transform:lowercase;
+	&:hover { background-color:#aaa  }
+	&:active, &.active { background-color:#888;  }
+}
+
+@mixin inputEscuro { background:#2b2b2b; border:1px solid #474747; box-shadow:1px 1px 0 #1f1f1f; height:13px; line-height:13px; padding:9px; color:#fff; border-radius:4px; font-size:13px; font-family:$fontePequena; font-weight:normal; float:left; margin-right:10px; width:155px;
+	&::-webkit-input-placeholder { color:#eee }
+	&:-moz-placeholder { color:#eee }
+	&:focus { background-color:#262626 }
+}
+
+@mixin inputClaro { background:#f3f3f3; border:1px solid #c5c5c5; box-shadow:1px 1px 0 #fff; height:13px; line-height:13px; padding:9px; color:lighten($cinza, 15); border-radius:4px; font-size:17px; font-family:$fontePequena; font-weight:normal; float:left; margin-right:10px; width:358px;
+	&::-webkit-input-placeholder { color:lighten($cinza, 5) }
+	&:-moz-placeholder { color:lighten($cinza, 5) }
+	&:focus { background-color:#fff; color:$cinza; }
+}
+
+@mixin botaoSeta { margin: 0 20px 0 20px; padding-right: 20px; background: url(../img/icon_arrowUpDown.png) no-repeat right 6px; }
+
+.btn { @include botaoRosa; }
+.btnCinza { @include botaoCinza; }
+.btnDashboard { @include botaoCinza; }
+.btnIcon { padding-right:15px;
+	span { float:left; margin-right:5px; }
+	em { float:left; margin-left:5px;  }
+}
+

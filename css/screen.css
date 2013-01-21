@@ -1,0 +1,1382 @@
+/* theming for Imageria by
+	Flor Braz
+	eu@florbraz.com
+*/
+/* line 98, spr/*.png */
+.spr-sprite, .spr-add, .spr-edit, .spr-gt-rosa, .spr-hidden, .spr-report, .content ul.listaArtes div.arte a, .vagaInterna .report, .spr-star, .spr-unstar, .spr-visible {
+  background: url('/img/spr-s25028c8843.png') no-repeat;
+}
+
+/* line 60, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-add {
+  background-position: 0 -97px;
+  height: 14px;
+  width: 15px;
+}
+
+/* line 60, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-edit {
+  background-position: 0 -275px;
+  height: 14px;
+  width: 16px;
+}
+
+/* line 60, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-gt-rosa {
+  background-position: 0 -319px;
+  height: 8px;
+  width: 4px;
+}
+
+/* line 60, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-hidden {
+  background-position: 0 -51px;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 60, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-report, .content ul.listaArtes div.arte a, .vagaInterna .report {
+  background-position: 0 0;
+  height: 21px;
+  width: 21px;
+}
+
+/* line 60, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-star {
+  background-position: 0 -185px;
+  height: 14px;
+  width: 15px;
+}
+
+/* line 60, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-unstar {
+  background-position: 0 -141px;
+  height: 14px;
+  width: 15px;
+}
+
+/* line 60, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-visible {
+  background-position: 0 -229px;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 30, ../sass/_buttons.scss */
+.btn {
+  background: url(../img/bg_buttons.png) repeat-x top #ad0030;
+  text-align: center;
+  border: 1px solid #e00c40;
+  box-shadow: 1px 1px 0 #6a001c;
+  float: left;
+  width: auto;
+  height: 15px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "dinM";
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  text-transform: lowercase;
+  behavior: url(css/PIE.htc);
+  position: relative;
+}
+/* line 7, ../sass/_buttons.scss */
+.btn:hover {
+  background-position: left bottom;
+  background-color: #ad0030;
+}
+/* line 8, ../sass/_buttons.scss */
+.btn:active, .btn.active {
+  background-image: url(../img/bg_buttonActive.png);
+  background-color: #250008;
+  border-color: #71001d;
+  box-shadow: 1px 1px 0 #39000d;
+}
+
+/* line 31, ../sass/_buttons.scss */
+.btnCinza {
+  background: #999;
+  text-align: center;
+  border: 1px solid #bbbbbb;
+  box-shadow: 1px 1px 0 #888888;
+  float: left;
+  width: auto;
+  height: 15px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "dinM";
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  text-transform: lowercase;
+}
+/* line 12, ../sass/_buttons.scss */
+.btnCinza:hover {
+  background-color: #aaaaaa;
+}
+/* line 13, ../sass/_buttons.scss */
+.btnCinza:active, .btnCinza.active {
+  background-color: #888;
+}
+
+/* line 32, ../sass/_buttons.scss */
+.btnDashboard {
+  background: #999;
+  text-align: center;
+  border: 1px solid #bbbbbb;
+  box-shadow: 1px 1px 0 #888888;
+  float: left;
+  width: auto;
+  height: 15px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "dinM";
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  text-transform: lowercase;
+}
+/* line 12, ../sass/_buttons.scss */
+.btnDashboard:hover {
+  background-color: #aaaaaa;
+}
+/* line 13, ../sass/_buttons.scss */
+.btnDashboard:active, .btnDashboard.active {
+  background-color: #888;
+}
+
+/* line 33, ../sass/_buttons.scss */
+.btnIcon {
+  padding-right: 15px;
+}
+/* line 34, ../sass/_buttons.scss */
+.btnIcon span {
+  float: left;
+  margin-right: 5px;
+}
+/* line 35, ../sass/_buttons.scss */
+.btnIcon em {
+  float: left;
+  margin-left: 5px;
+}
+
+/* line 28, ../sass/screen.scss */
+::selection {
+  color: #fff;
+  background-color: #b4002f;
+}
+
+/* line 28, ../sass/screen.scss */
+::-moz-selection {
+  color: #fff;
+  background-color: #b4002f;
+}
+
+/* line 28, ../sass/screen.scss */
+::-webkit-selection {
+  color: #fff;
+  background-color: #b4002f;
+}
+
+/* line 30, ../sass/screen.scss */
+body {
+  font-family: sans-serif;
+  text-align: center;
+  color: #111111;
+}
+
+/* line 31, ../sass/screen.scss */
+.wrap {
+  min-width: 200px;
+  width: 95%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* line 32, ../sass/screen.scss */
+.box {
+  background: url(../img/bg_boxGradient.png) repeat-x top #ebebeb;
+  float: left;
+  clear: both;
+  width: 100%;
+  font-size: 14px;
+}
+/* line 33, ../sass/screen.scss */
+.box .wrap {
+  width: 300px;
+}
+/* line 34, ../sass/screen.scss */
+.box form {
+  padding: 0 0 50px 0;
+  overflow: hidden;
+}
+/* line 35, ../sass/screen.scss */
+.box form h3 {
+  font-size: 25px;
+  color: #111111;
+  font-family: "myriad pro";
+  letter-spacing: -1px;
+  margin-top: 50px;
+}
+/* line 36, ../sass/screen.scss */
+.box form .form-item {
+  float: left;
+  width: 300px;
+  padding-top: 30px;
+}
+/* line 37, ../sass/screen.scss */
+.box form .form-item-full {
+  float: left;
+  width: 300px;
+  padding-top: 30px;
+}
+/* line 38, ../sass/screen.scss */
+.box form .form-item-full input[type="text"] {
+  width: 268px;
+}
+/* line 39, ../sass/screen.scss */
+.box form .form-item-full textarea {
+  width: 268px;
+  height: 40px;
+}
+/* line 41, ../sass/screen.scss */
+.box form label, .box form p.label {
+  color: #444;
+  font-size: 20px;
+  display: block;
+  padding-bottom: 5px;
+}
+/* line 42, ../sass/screen.scss */
+.box form label span, .box form p.label span {
+  font-size: 15px;
+  color: #777777;
+}
+/* line 46, ../sass/screen.scss */
+.box form input[type="text"],
+.box form input[type="password"],
+.box form textarea {
+  background: #f3f3f3;
+  border: 1px solid #c5c5c5;
+  box-shadow: 1px 1px 0 white;
+  height: 13px;
+  line-height: 13px;
+  padding: 9px;
+  color: #aaaaaa;
+  border-radius: 4px;
+  font-size: 17px;
+  font-family: "dinM";
+  font-weight: normal;
+  float: left;
+  margin-right: 10px;
+  width: 358px;
+  line-height: 1.2;
+  width: 268px;
+}
+/* line 23, ../sass/_buttons.scss */
+.box form input[type="text"]::-webkit-input-placeholder,
+.box form input[type="password"]::-webkit-input-placeholder,
+.box form textarea::-webkit-input-placeholder {
+  color: #919191;
+}
+/* line 24, ../sass/_buttons.scss */
+.box form input[type="text"]:-moz-placeholder,
+.box form input[type="password"]:-moz-placeholder,
+.box form textarea:-moz-placeholder {
+  color: #919191;
+}
+/* line 25, ../sass/_buttons.scss */
+.box form input[type="text"]:focus,
+.box form input[type="password"]:focus,
+.box form textarea:focus {
+  background-color: #fff;
+  color: #848484;
+}
+/* line 49, ../sass/screen.scss */
+.box form input[type="text"]:focus,
+.box form input[type="password"]:focus,
+.box form textarea:focus {
+  overflow: auto;
+}
+/* line 51, ../sass/screen.scss */
+.box form .form-item-check label, .box form .form-item-check p.label {
+  padding-bottom: 15px;
+}
+/* line 52, ../sass/screen.scss */
+.box form .form-item-check span {
+  margin-right: 15px;
+  color: #848484;
+  font-size: 15px;
+}
+/* line 54, ../sass/screen.scss */
+.box form input[type="submit"] {
+  background: url(../img/bg_buttons.png) repeat-x top #ad0030;
+  text-align: center;
+  border: 1px solid #e00c40;
+  box-shadow: 1px 1px 0 #6a001c;
+  float: left;
+  width: 65px;
+  height: 33px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 13px;
+  font-family: "dinM";
+  font-weight: normal;
+  text-transform: lowercase;
+  behavior: url(css/PIE.htc);
+  position: relative;
+  width: 287px;
+  height: 44px;
+  font-size: 18px;
+  float: right;
+}
+/* line 2, ../sass/_buttons.scss */
+.box form input[type="submit"]:hover {
+  background-position: left bottom;
+  background-color: #ad0030;
+}
+/* line 3, ../sass/_buttons.scss */
+.box form input[type="submit"]:active, .box form input[type="submit"].active {
+  background-image: url(../img/bg_buttonActive.png);
+  background-color: #250008;
+  border-color: #71001d;
+  box-shadow: 1px 1px 0 #39000d;
+}
+
+/* line 58, ../sass/screen.scss */
+body .filter {
+  padding-top: 0;
+  float: right;
+  position: relative;
+  margin-top: 36px;
+}
+/* line 59, ../sass/screen.scss */
+body .filter select {
+  width: 300px;
+}
+/* line 61, ../sass/screen.scss */
+body .dd {
+  float: right;
+}
+/* line 62, ../sass/screen.scss */
+body .dd .ddTitle {
+  padding: 0;
+  height: 38px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+}
+/* line 63, ../sass/screen.scss */
+body .dd .ddTitle .arrow {
+  width: 43px;
+  height: 38px;
+  display: block;
+  background: url(../img/bg_arrow.png) no-repeat right top;
+}
+/* line 64, ../sass/screen.scss */
+body .dd .ddTitle span.ddTitleText span {
+  font-family: "dinM";
+  padding: 11px;
+  font-size: 14px;
+  display: block;
+  color: #111111;
+}
+/* line 66, ../sass/screen.scss */
+body .dd .ddChild {
+  border-radius: 0 0 4px 4px;
+  margin-top: -3px;
+  z-index: 4!important;
+  padding-top: 3px;
+}
+/* line 67, ../sass/screen.scss */
+body .dd .ddChild a {
+  padding: 11px;
+  font-family: "dinM";
+  font-size: 14px;
+}
+/* line 68, ../sass/screen.scss */
+body .dd .ddChild a:hover {
+  background: #b4002f;
+  color: #fff;
+}
+/* line 69, ../sass/screen.scss */
+body .dd .ddChild a.selected {
+  background: #dadada;
+  color: #111111;
+}
+
+/* line 1, ../sass/_header.scss */
+header {
+  background: url(../img/bg_top.png) top black;
+  min-height: 64px;
+  border-bottom: 3px solid #b4002f;
+  position: relative;
+  z-index: 9;
+}
+/* line 2, ../sass/_header.scss */
+header h1 {
+  padding-top: 13px;
+  padding-right: 20px;
+  float: left;
+}
+/* line 3, ../sass/_header.scss */
+header h1 img {
+  width: 80px;
+}
+/* line 5, ../sass/_header.scss */
+header menu {
+  border-left: 1px solid #ed114a;
+  border-right: 1px solid #460214;
+  float: left;
+}
+/* line 6, ../sass/_header.scss */
+header menu li {
+  float: left;
+}
+/* line 7, ../sass/_header.scss */
+header menu li:first-child {
+  display: none;
+}
+/* line 9, ../sass/_header.scss */
+header menu li a {
+  font-family: "dinM";
+  border-right: 1px solid #ed114a;
+  border-left: 1px solid #460214;
+  float: left;
+  height: 16px;
+  line-height: 16px;
+  padding: 24px 15px;
+  color: #f5f5f5;
+  font-size: 14px;
+  text-decoration: none;
+}
+/* line 10, ../sass/_header.scss */
+header menu li a:hover {
+  background: url(../img/bg_top.png) bottom;
+}
+/* line 11, ../sass/_header.scss */
+header menu li a.active {
+  background: url(../img/bg_buttonTopActive.png);
+}
+/* line 14, ../sass/_header.scss */
+header form {
+  display: none;
+  float: right;
+  width: 390px;
+  padding-top: 23px;
+}
+/* line 16, ../sass/_header.scss */
+header form input[type="text"],
+header form input[type="password"] {
+  background: #2b2b2b;
+  border: 1px solid #474747;
+  box-shadow: 1px 1px 0 #1f1f1f;
+  height: 13px;
+  line-height: 13px;
+  padding: 9px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: "dinM";
+  font-weight: normal;
+  float: left;
+  margin-right: 10px;
+  width: 155px;
+}
+/* line 17, ../sass/_buttons.scss */
+header form input[type="text"]::-webkit-input-placeholder,
+header form input[type="password"]::-webkit-input-placeholder {
+  color: #eeeeee;
+}
+/* line 18, ../sass/_buttons.scss */
+header form input[type="text"]:-moz-placeholder,
+header form input[type="password"]:-moz-placeholder {
+  color: #eeeeee;
+}
+/* line 19, ../sass/_buttons.scss */
+header form input[type="text"]:focus,
+header form input[type="password"]:focus {
+  background-color: #262626;
+}
+/* line 17, ../sass/_header.scss */
+header form input[type="password"] {
+  width: 108px;
+}
+/* line 18, ../sass/_header.scss */
+header form input[type="submit"] {
+  background: url(../img/bg_buttons.png) repeat-x top #ad0030;
+  text-align: center;
+  border: 1px solid #e00c40;
+  box-shadow: 1px 1px 0 #6a001c;
+  float: left;
+  width: 65px;
+  height: 33px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 13px;
+  font-family: "dinM";
+  font-weight: normal;
+  text-transform: lowercase;
+  behavior: url(css/PIE.htc);
+  position: relative;
+}
+/* line 2, ../sass/_buttons.scss */
+header form input[type="submit"]:hover {
+  background-position: left bottom;
+  background-color: #ad0030;
+}
+/* line 3, ../sass/_buttons.scss */
+header form input[type="submit"]:active, header form input[type="submit"].active {
+  background-image: url(../img/bg_buttonActive.png);
+  background-color: #250008;
+  border-color: #71001d;
+  box-shadow: 1px 1px 0 #39000d;
+}
+/* line 19, ../sass/_header.scss */
+header form a.btn {
+  padding: 8px 12px;
+}
+/* line 21, ../sass/_header.scss */
+header .welcome {
+  color: #000;
+  font-family: dinM;
+  font-size: 14px;
+  padding: 30px 0;
+  text-align: right;
+  position: absolute;
+  top: 77px;
+}
+/* line 22, ../sass/_header.scss */
+header .welcome strong {
+  background: url(../img/spr/gt-rosa.png) no-repeat right center;
+  font-weight: normal;
+  padding-right: 26px;
+}
+/* line 23, ../sass/_header.scss */
+header .welcome a {
+  margin-left: 17px;
+  color: #111111;
+  text-decoration: none;
+}
+/* line 4, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+header .welcome a:hover {
+  text-decoration: underline;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  background: #e9e9e9;
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin-top: 40px;
+}
+/* line 2, ../sass/_footer.scss */
+footer h1 {
+  display: none;
+}
+/* line 3, ../sass/_footer.scss */
+footer h2 {
+  font-size: 20px;
+  color: #b4002f;
+  padding: 20px 0 0 0;
+}
+/* line 4, ../sass/_footer.scss */
+footer a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 4, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+footer a:hover {
+  text-decoration: underline;
+}
+/* line 5, ../sass/_footer.scss */
+footer li {
+  padding: 2px 0 0;
+}
+/* line 6, ../sass/_footer.scss */
+footer .copyright {
+  background: #dadada;
+  margin-top: 30px;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: dinM;
+}
+/* line 7, ../sass/_footer.scss */
+footer .copyright p {
+  text-align: left;
+  width: 300px;
+  margin: 0 auto;
+}
+/* line 9, ../sass/_footer.scss */
+footer br {
+  display: none;
+}
+
+/* line 79, ../sass/screen.scss */
+.logged .content .breadcrumb {
+  visibility: hidden;
+  height: 15px;
+}
+
+/* line 80, ../sass/screen.scss */
+.logged .dashboard .filter {
+  display: none;
+}
+
+/* line 81, ../sass/screen.scss */
+.content {
+  position: relative;
+  z-index: 1;
+}
+/* line 82, ../sass/screen.scss */
+.content .breadcrumb {
+  font-size: 14px;
+  color: #111111;
+  padding: 40px 0;
+}
+/* line 83, ../sass/screen.scss */
+.content .breadcrumb strong {
+  font-weight: bold;
+  margin: 0 4px;
+}
+/* line 84, ../sass/screen.scss */
+.content .breadcrumb a {
+  color: #b4002f;
+  margin: 0 4px;
+  text-decoration: none;
+}
+/* line 4, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+.content .breadcrumb a:hover {
+  text-decoration: underline;
+}
+/* line 86, ../sass/screen.scss */
+.content > .wrap {
+  position: relative;
+  z-index: 5;
+}
+/* line 87, ../sass/screen.scss */
+.content > .wrap > .share {
+  display: table;
+  padding: 25px 0 25px 0;
+  margin: 40px 0;
+  background: #e9e9e9;
+  width: 100%;
+}
+/* line 88, ../sass/screen.scss */
+.content > .wrap > .share .alignment {
+  width: 246px;
+  margin: 0 auto;
+}
+/* line 89, ../sass/screen.scss */
+.content > .wrap > .share .container {
+  float: right;
+  margin-left: 25px;
+}
+/* line 92, ../sass/screen.scss */
+.content h2.start {
+  font-size: 29px;
+  letter-spacing: -1px;
+  padding-top: 0;
+  color: #111111;
+  padding-bottom: 15px;
+  float: left;
+  width: 100%;
+  clear: both;
+}
+/* line 93, ../sass/screen.scss */
+.content h2.start br {
+  display: none;
+}
+/* line 95, ../sass/screen.scss */
+.content .apresentacao {
+  display: none;
+}
+/* line 96, ../sass/screen.scss */
+.content .loginRegister {
+  text-align: center;
+  position: relative;
+  height: 100px;
+  margin: 0 auto;
+  width: 282px;
+  overflow: hidden;
+}
+/* line 97, ../sass/screen.scss */
+.content .loginRegister button {
+  background: url(../img/bg_buttons.png) repeat-x top #ad0030;
+  text-align: center;
+  border: 1px solid #e00c40;
+  box-shadow: 1px 1px 0 #6a001c;
+  float: left;
+  width: 65px;
+  height: 33px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 13px;
+  font-family: "dinM";
+  font-weight: normal;
+  text-transform: lowercase;
+  behavior: url(css/PIE.htc);
+  position: relative;
+  height: 38px;
+  width: auto;
+  padding: 0 40px;
+  margin-top: 40px;
+  font-size: 14px;
+  behavior: none;
+}
+/* line 2, ../sass/_buttons.scss */
+.content .loginRegister button:hover {
+  background-position: left bottom;
+  background-color: #ad0030;
+}
+/* line 3, ../sass/_buttons.scss */
+.content .loginRegister button:active, .content .loginRegister button.active {
+  background-image: url(../img/bg_buttonActive.png);
+  background-color: #250008;
+  border-color: #71001d;
+  box-shadow: 1px 1px 0 #39000d;
+}
+/* line 98, ../sass/screen.scss */
+.content .loginRegister button.login {
+  margin-left: 343px;
+  margin-right: 18px;
+  margin-left: 4px;
+  margin-right: 18px;
+}
+/* line 99, ../sass/screen.scss */
+.content .loginRegister button.active {
+  padding: 0 16px 0 24px;
+}
+/* line 100, ../sass/screen.scss */
+.content .loginRegister button.active span {
+  margin: 0 20px 0 20px;
+  padding-right: 20px;
+  background: url(../img/icon_arrowUpDown.png) no-repeat right 6px;
+  margin: 0 10px;
+  background-position: right 5px;
+}
+/* line 104, ../sass/screen.scss */
+.content .formsHome {
+  top: -40px;
+  position: relative;
+  margin-bottom: -40px;
+}
+/* line 107, ../sass/screen.scss */
+.content .formLogin form .form-item {
+  width: 300px;
+}
+/* line 109, ../sass/screen.scss */
+.content .formLogin form input[type="text"],
+.content .formLogin form input[type="password"] {
+  width: 268px;
+}
+/* line 110, ../sass/screen.scss */
+.content .formLogin form input[type="submit"] {
+  width: 287px;
+}
+/* line 114, ../sass/screen.scss */
+.content .contentHome {
+  width: 100%;
+  float: left;
+  clear: left;
+  padding: 10px 0;
+}
+/* line 115, ../sass/screen.scss */
+.content .contentHome .filter {
+  float: right;
+  margin-top: 40px;
+  background: #fff;
+  padding-top: 0;
+  width: 300px;
+  position: relative;
+}
+/* line 116, ../sass/screen.scss */
+.content .contentHome .filter select {
+  width: 300px;
+}
+/* line 118, ../sass/screen.scss */
+.content .contentHome .containerArtes {
+  display: none;
+}
+/* line 119, ../sass/screen.scss */
+.content .contentHome ul.listaArtes {
+  margin-top: -43px;
+}
+/* line 121, ../sass/screen.scss */
+.content .mostrar {
+  font-size: 20px;
+  color: #111111;
+  border-bottom: 1px solid #dadada;
+  float: left;
+  width: 100%;
+  clear: both;
+  padding-top: 40px;
+}
+/* line 122, ../sass/screen.scss */
+.content .mostrar li {
+  margin-right: 1px;
+  margin-bottom: -7px;
+  float: left;
+  padding-bottom: 12px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+/* line 123, ../sass/screen.scss */
+.content .mostrar li.active {
+  background: url(../img/bg_menuSelected.png) no-repeat center bottom;
+}
+/* line 126, ../sass/screen.scss */
+.content h1.page-title {
+  font-size: 40px;
+  color: #111111;
+  line-height: 1;
+  float: left;
+}
+/* line 127, ../sass/screen.scss */
+.content hr {
+  float: left;
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #dadada;
+  background: #fff;
+  border-width: 1px 0 0 0;
+  margin-top: 40px;
+  margin-bottom: -5px;
+}
+/* line 128, ../sass/screen.scss */
+.content ul.listaVagas {
+  float: left;
+  width: 100%;
+}
+/* line 129, ../sass/screen.scss */
+.content ul.listaVagas li {
+  width: 100%;
+  float: left;
+  clear: both;
+  padding: 40px 0 47px;
+  border-top: 1px solid #dadada;
+}
+/* line 130, ../sass/screen.scss */
+.content ul.listaVagas li:first-child {
+  border: 0;
+}
+/* line 131, ../sass/screen.scss */
+.content ul.listaVagas li.concorrendo {
+  background: url(../img/pic_concorrendo.png) no-repeat left 28px;
+  padding-top: 60px;
+}
+/* line 132, ../sass/screen.scss */
+.content ul.listaVagas li.concorrendo h3 {
+  color: #494949;
+}
+/* line 134, ../sass/screen.scss */
+.content ul.listaVagas li.concorrendo .steps h4 {
+  color: #494949;
+}
+/* line 135, ../sass/screen.scss */
+.content ul.listaVagas li.concorrendo .steps .btnConcorrer {
+  display: none;
+}
+/* line 138, ../sass/screen.scss */
+.content ul.listaVagas li.vagaPersonalizada {
+  padding-left: 240px;
+  width: 700px;
+  background: url(../img/pic_logo.jpg) no-repeat left center;
+  padding-bottom: 40px;
+  display: none;
+}
+/* line 139, ../sass/screen.scss */
+.content ul.listaVagas li.vagaPersonalizada .steps {
+  width: 300px;
+}
+/* line 140, ../sass/screen.scss */
+.content ul.listaVagas li.vagaPersonalizada .step-concorrer {
+  clear: both;
+  margin-left: 0;
+  margin-top: 40px;
+}
+/* line 143, ../sass/screen.scss */
+.content ul.listaVagas h3 {
+  font-size: 29px;
+  color: #111111;
+  padding-bottom: 25px;
+}
+/* line 144, ../sass/screen.scss */
+.content ul.listaVagas h3 span {
+  color: #848484;
+  padding-left: 10px;
+  font-size: 25px;
+}
+/* line 146, ../sass/screen.scss */
+.content ul.listaVagas h4 {
+  font-size: 13px;
+  color: #111111;
+  margin: -15px 0 0 0;
+  padding-bottom: 18px;
+}
+/* line 147, ../sass/screen.scss */
+.content ul.listaVagas .steps {
+  color: #848484;
+  font-size: 16px;
+  float: left;
+  width: 100%;
+  margin-left: 0;
+}
+/* line 148, ../sass/screen.scss */
+.content ul.listaVagas .steps.first {
+  margin-left: 0;
+}
+/* line 149, ../sass/screen.scss */
+.content ul.listaVagas .steps h4 {
+  font-size: 20px;
+  color: #111111;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+/* line 150, ../sass/screen.scss */
+.content ul.listaVagas .steps p {
+  padding-bottom: 16px;
+}
+/* line 151, ../sass/screen.scss */
+.content ul.listaVagas .steps .btnConcorrer {
+  background: url(../img/bg_buttons.png) repeat-x top #ad0030;
+  text-align: center;
+  border: 1px solid #e00c40;
+  box-shadow: 1px 1px 0 #6a001c;
+  float: left;
+  width: auto;
+  height: 15px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "dinM";
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  text-transform: lowercase;
+  behavior: url(css/PIE.htc);
+  position: relative;
+  margin-top: 5px;
+  float: left;
+  padding: 10px 20px;
+  width: 246px;
+}
+/* line 7, ../sass/_buttons.scss */
+.content ul.listaVagas .steps .btnConcorrer:hover {
+  background-position: left bottom;
+  background-color: #ad0030;
+}
+/* line 8, ../sass/_buttons.scss */
+.content ul.listaVagas .steps .btnConcorrer:active, .content ul.listaVagas .steps .btnConcorrer.active {
+  background-image: url(../img/bg_buttonActive.png);
+  background-color: #250008;
+  border-color: #71001d;
+  box-shadow: 1px 1px 0 #39000d;
+}
+/* line 154, ../sass/screen.scss */
+.content ul.listaVagas .steps .btnConcorrer.active span {
+  background-position: right -94px;
+}
+/* line 158, ../sass/screen.scss */
+.content ul.listaVagas .formConcorrer {
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+  clear: both;
+}
+/* line 160, ../sass/screen.scss */
+.content .containerArtes {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 161, ../sass/screen.scss */
+.content ul.listaArtes {
+  width: 328px;
+  margin-left: -40px;
+  float: left;
+}
+/* line 162, ../sass/screen.scss */
+.content ul.listaArtes li {
+  width: 286px;
+  float: left;
+  padding: 40px 0 0 40px;
+  padding-bottom: 1px;
+  margin-top: 40px;
+  overflow: hidden;
+  border-top: 1px solid #dadada;
+}
+/* line 163, ../sass/screen.scss */
+.content ul.listaArtes h2 {
+  font-size: 29px;
+  margin-top: 5px;
+  color: #111111;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  float: left;
+  clear: both;
+}
+/* line 164, ../sass/screen.scss */
+.content ul.listaArtes h2 span {
+  color: #848484;
+  padding-left: 10px;
+  font-size: 25px;
+}
+/* line 166, ../sass/screen.scss */
+.content ul.listaArtes h3 {
+  font-size: 20px;
+  color: #111111;
+  padding-bottom: 7px;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+/* line 167, ../sass/screen.scss */
+.content ul.listaArtes h3 a {
+  color: #b4002f;
+  text-decoration: none;
+  font-family: "dinM";
+  font-size: 14px;
+}
+/* line 4, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+.content ul.listaArtes h3 a:hover {
+  text-decoration: underline;
+}
+/* line 170, ../sass/screen.scss */
+.content ul.listaArtes h4 {
+  clear: both;
+  font-size: 14px;
+  color: #848484;
+  float: left;
+  width: 100%;
+  padding-bottom: 16px;
+}
+/* line 171, ../sass/screen.scss */
+.content ul.listaArtes div.arte {
+  float: left;
+  padding-bottom: 20px;
+  width: 100%;
+}
+/* line 172, ../sass/screen.scss */
+.content ul.listaArtes div.arte img {
+  border: 1px solid #dadada;
+  width: 284px;
+  height: auto;
+}
+/* line 173, ../sass/screen.scss */
+.content ul.listaArtes div.arte a {
+  background-color: #fff;
+  background-position: 4px 4px;
+  padding: 6px 3px 0 28px;
+  color: #111111;
+  float: right;
+  font-size: 13px;
+  font-family: "dinM";
+  text-decoration: none;
+  margin-top: -29px;
+  margin-right: 0;
+  height: 21px;
+  position: relative;
+  border: 1px solid #dadada;
+  width: auto;
+}
+/* line 174, ../sass/screen.scss */
+.content ul.listaArtes div.arte a:hover {
+  background-color: #eeeeee;
+}
+/* line 178, ../sass/screen.scss */
+.content ul.listaArtes .btnDetalhes {
+  background: url(../img/bg_buttons.png) repeat-x top #ad0030;
+  text-align: center;
+  border: 1px solid #e00c40;
+  box-shadow: 1px 1px 0 #6a001c;
+  float: left;
+  width: auto;
+  height: 15px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "dinM";
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  text-transform: lowercase;
+  behavior: url(css/PIE.htc);
+  position: relative;
+  padding: 10px 20px;
+  width: 243px;
+  position: relative;
+}
+/* line 7, ../sass/_buttons.scss */
+.content ul.listaArtes .btnDetalhes:hover {
+  background-position: left bottom;
+  background-color: #ad0030;
+}
+/* line 8, ../sass/_buttons.scss */
+.content ul.listaArtes .btnDetalhes:active, .content ul.listaArtes .btnDetalhes.active {
+  background-image: url(../img/bg_buttonActive.png);
+  background-color: #250008;
+  border-color: #71001d;
+  box-shadow: 1px 1px 0 #39000d;
+}
+
+/* line 182, ../sass/screen.scss */
+.vagaInterna {
+  position: relative;
+}
+/* line 183, ../sass/screen.scss */
+.vagaInterna .share {
+  float: right;
+  margin-top: -10px;
+  width: 248px;
+  padding: 25px;
+  background: #e9e9e9;
+}
+/* line 184, ../sass/screen.scss */
+.vagaInterna .share .container {
+  margin-left: 25px!important;
+  float: left;
+}
+/* line 185, ../sass/screen.scss */
+.vagaInterna .share .container:first-child {
+  margin-left: 15px !important;
+}
+/* line 187, ../sass/screen.scss */
+.vagaInterna h1 {
+  color: #111111;
+  font-size: 28px;
+  line-height: 0.9;
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+/* line 188, ../sass/screen.scss */
+.vagaInterna h1 span {
+  color: #848484;
+  font-size: 23px;
+}
+/* line 190, ../sass/screen.scss */
+.vagaInterna .steps {
+  color: #848484;
+  font-size: 16px;
+  float: left;
+  width: 280px;
+  padding-top: 25px;
+}
+/* line 191, ../sass/screen.scss */
+.vagaInterna .steps.first {
+  margin-left: 0;
+}
+/* line 192, ../sass/screen.scss */
+.vagaInterna .steps h2 {
+  font-size: 20px;
+  color: #111111;
+}
+/* line 193, ../sass/screen.scss */
+.vagaInterna .steps p, .vagaInterna .steps address {
+  padding-top: 10px;
+}
+/* line 194, ../sass/screen.scss */
+.vagaInterna .steps a {
+  color: #b4002f;
+  text-decoration: none;
+}
+/* line 4, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+.vagaInterna .steps a:hover {
+  text-decoration: underline;
+}
+/* line 196, ../sass/screen.scss */
+.vagaInterna .report {
+  background-color: #fff;
+  background-position: 19px 11px;
+  padding: 38px 3px 0 3px;
+  color: #111111;
+  float: left;
+  clear: both;
+  font-size: 11px;
+  font-family: "dinM";
+  text-decoration: none;
+  margin-top: 20px;
+  height: 21px;
+  position: relative;
+  border: 1px solid #dadada;
+  width: auto;
+}
+/* line 197, ../sass/screen.scss */
+.vagaInterna .report:hover {
+  background-color: #eeeeee;
+}
+
+/* line 200, ../sass/screen.scss */
+.formConcorrer {
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+}
+/* line 201, ../sass/screen.scss */
+.formConcorrer .termos a {
+  font-size: 16px;
+  color: #b4002f;
+}
+
+/* line 203, ../sass/screen.scss */
+.fb-comments {
+  padding: 40px 0 0 0;
+  width: 300px;
+  overflow: hidden;
+  float: left;
+}
+
+/* line 206, ../sass/screen.scss */
+.dashboard h1 {
+  font-size: 30px;
+}
+/* line 207, ../sass/screen.scss */
+.dashboard h1 > span {
+  float: left;
+  margin-right: 20px;
+}
+/* line 208, ../sass/screen.scss */
+.dashboard h1 .btn {
+  margin-top: 20px;
+}
+/* line 209, ../sass/screen.scss */
+.dashboard .btnAdicionar {
+  background: #999;
+  text-align: center;
+  border: 1px solid #bbbbbb;
+  box-shadow: 1px 1px 0 #888888;
+  float: left;
+  width: auto;
+  height: 15px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "dinM";
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  text-transform: lowercase;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+/* line 12, ../sass/_buttons.scss */
+.dashboard .btnAdicionar:hover {
+  background-color: #aaaaaa;
+}
+/* line 13, ../sass/_buttons.scss */
+.dashboard .btnAdicionar:active, .dashboard .btnAdicionar.active {
+  background-color: #888;
+}
+/* line 210, ../sass/screen.scss */
+.dashboard ul.listaVagas h4 {
+  padding-bottom: 16px;
+}
+/* line 211, ../sass/screen.scss */
+.dashboard ul.listaVagas .steps {
+  width: 200px;
+  padding-bottom: 20px;
+}
+/* line 212, ../sass/screen.scss */
+.dashboard ul.listaVagas .steps h4 {
+  margin-top: 0;
+}
+
+/* line 214, ../sass/screen.scss */
+.dashboard .vagaInterna {
+  background: #e9e9e9;
+  overflow: hidden;
+  padding: 20px;
+}
+/* line 215, ../sass/screen.scss */
+.dashboard .vagaInterna .steps {
+  width: 250px;
+}
+
+/* line 217, ../sass/screen.scss */
+.listaConcorrentes {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+/* line 218, ../sass/screen.scss */
+.listaConcorrentes .btn {
+  float: right;
+  margin-left: 15px;
+}
+/* line 219, ../sass/screen.scss */
+.listaConcorrentes > .btn {
+  display: none;
+}
+/* line 220, ../sass/screen.scss */
+.listaConcorrentes h2 {
+  font-size: 30px;
+}
+/* line 222, ../sass/screen.scss */
+.listaConcorrentes li {
+  width: 100%;
+  float: left;
+  clear: both;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+/* line 223, ../sass/screen.scss */
+.listaConcorrentes .arte {
+  float: left;
+  width: 300px;
+  margin-right: 40px;
+}
+/* line 224, ../sass/screen.scss */
+.listaConcorrentes .arte img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #dadada;
+}
+/* line 226, ../sass/screen.scss */
+.listaConcorrentes .infos {
+  width: 300px;
+  float: left;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #848484;
+}
+/* line 227, ../sass/screen.scss */
+.listaConcorrentes .infos h3 {
+  font-size: 20px;
+  padding-bottom: 16px;
+  color: #111111;
+}
+/* line 228, ../sass/screen.scss */
+.listaConcorrentes .infos h3 a {
+  color: #b4002f;
+  text-decoration: none;
+}
+/* line 4, ../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+.listaConcorrentes .infos h3 a:hover {
+  text-decoration: underline;
+}
+/* line 231, ../sass/screen.scss */
+.listaConcorrentes .actions {
+  float: right;
+  width: 240px;
+  padding-top: 11px;
+}
+/* line 232, ../sass/screen.scss */
+.listaConcorrentes .actions .btnCinza {
+  float: right;
+  margin-top: 10px;
+}

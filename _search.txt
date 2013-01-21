@@ -1,0 +1,60 @@
+MARKUP
+
+Aqui estamos adicionando o role="search" (ARIA) no form, pois indica toda a área que fará uma busca.
+O title="search" é utilizado para prover informação a mecanismos de busca.
+Em vez de utilizarmos o atributo value para mostrar informação dentro do campo a ser preenchido, utilizamos o placeholder.
+
+<form role="search">
+	<input type="search" title="search" name="search" class="search" placeholder="O que está procurando?"/>
+</form>
+
+
+CSS
+ 
+Aqui estamos resetando o estilo default que o Chrome insere para o input search, facilitando a estilização posterior.
+
+input[type=search] { -webkit-appearance: textfield; font-size: medium; background: #fff; }
+::-webkit-search-decoration,
+::-webkit-search-cancel-button,
+::-webkit-search-results-button,
+::-webkit-search-results-decoration {
+  display: none;
+}
+
+Depois, para estilizar, tenha um fallback utilizando classe ou id, pois o IE não interpreta o input type="search" e ficará sem estilo.
+
+input[type=search], input.search { // regras de estilo }
+
+
+JS
+
+Assumindo que você está usando o starter kit (rodando o modernizr) acrescente a seguinte função:
+
+//  normalizando placeholders em navegadores antigos
+
+	if(!Modernizr.input.placeholder){
+
+	$('[placeholder]').focus(function() {
+	  var input = $(this);
+	  if (input.val() == input.attr('placeholder')) {
+		input.val('');
+		input.removeClass('placeholder');
+	  }
+	}).blur(function() {
+	  var input = $(this);
+	  if (input.val() == '' || input.val() == input.attr('placeholder')) {
+		input.addClass('placeholder');
+		input.val(input.attr('placeholder'));
+	  }
+	}).blur();
+	$('[placeholder]').parents('form').submit(function() {
+	  $(this).find('[placeholder]').each(function() {
+		var input = $(this);
+		if (input.val() == input.attr('placeholder')) {
+		  input.val('');
+		}
+	  })
+	});
+
+
+	

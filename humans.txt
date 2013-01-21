@@ -1,0 +1,23 @@
+﻿/* TEAM */
+	Chef:Juanjo Bernabeu
+	Contact: hello [at] humanstxt.org
+	Twitter: @juanjobernabeu
+	From:Barcelona, Catalonia, Spain
+
+	UI developer: Maria Macias
+	Twitter: @maria_ux
+	From:Barcelona, Catalonia, Spain
+
+	One eyed illustrator: Carlos Mañas
+	Twitter: @oneeyedman
+	From:Madrid, Spain
+
+	Standard Man: Abel Cabans
+	Twitter: @abelcabans
+	From:Barcelona, Catalonia, Spain
+
+	Web designer: Abel Sutilo
+	Twitter: @abelsutilo
+	From:Sevilla, Andalucia, Spain
+
+		

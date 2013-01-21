@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0;">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="robots" content="all" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<title>Imageria</title>
+	
+	<link rel="shortcut icon" href="img/favicon.png" />
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css" /> <!-- normalização -->
+	<link rel="stylesheet" type="text/css" href="css/screen.css" /> <!-- versão compilada dos arquivos sass separados por área e função -->
+	<link rel="stylesheet" type="text/css" media="(min-width:940px)" href="css/screen-min-1024.css" />
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> <!-- melhor carregar o jQuery de uma cdn, por ser assíncrono -->
+	<script type="text/javascript" src="js/modernizr.js"></script> <!-- ajudante na detecção de features não suportadas por cada browser -->
+	<script type="text/javascript" src="js/global.js"></script> <!-- versão compilada dos arquivos js separados por área e função -->
+	
+	 <!-- ativa elementos html5 para IEs antigos.  -->
+	<!--[if IE]>
+		<script type="text/javascript" src="js/html5.js"></script>
+	<![endif]-->
+	
+	<!-- ativa media queries para IEs antigos -->
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ies.css"/>
+		<script type="text/javascript" src="js/respond.js"></script> 
+	<![endif]-->
+</head>
+
+<body>
+<header role="banner">
+	<div class="wrap">
+		<h1><a href="index.html" rel="home"><img src="img/logo-empresa.png" alt="Imageria"/></a></h1> <!-- o rel="home" é um microformat para indicar que o link está levando para a home do site atual. -->
+		<menu role="navigation">
+			<ul>
+				<li><a href="index.html" class="active">Página inicial</a></li>
+				<li><a href="vagas.html">Vagas</a></li>
+				<li><a href="artes.html">Artes</a></li>
+			</ul>
+		</menu>
+		<form role="form">
+			<input type="text" placeholder="e-mail" />
+			<input type="password" placeholder="senha"/>
+			<!--<input type="submit" value="entrar" />-->
+			<a href="dashboardEmpregador.html" class="btn">entrar</a>
+		</form>
+	</div>
+</header>
+<main class="content" role="main">
+	<div class="wrap">
+		<div class="share">
+			<div class="alignment">
+				<div class="container"><g:plusone size="tall"  count="true"></g:plusone></div>
+				<div class="container"><span class="code"><a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="meioemensagem" data-lang="en">Tweet</a></span></div>
+				<div class="container"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fimageria.net&amp;send=false&amp;layout=box_count&amp;width=58&amp;show_faces=false&amp;font=tahoma&amp;colorscheme=light&amp;action=like&amp;height=61&amp;appId=314939711938178" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:58px; height:61px;" allowTransparency="true"></iframe></div>
+			</div>
+		</div>
+		<h2 class="start">A Imageria facilita a vida dos profissionais visuais <br /> e a de quem quer contratá-los.</h2>
+		<img src="img/pic_apresentacao.png" class="apresentacao" />
+		<div class="loginRegister">
+			<button class="login"><span>Entrar</span></button>
+			<button class="register"><span>Cadastro</span></button>
+		</div>
+	</div>
+	<div class="box formsHome formLogin">
+		<div class="wrap">
+			<form>
+				<h3>Entre na Imageria</h3>
+				<div class="form-item">
+					<label>E-mail</label>
+					<input type="text"/>
+				</div>
+				<div class="form-item">
+					<label>Senha</label>
+					<input type="password"/>
+				</div>
+				<div class="form-item form-item-check">
+					<p class="label">Sou...</p>
+					<input type="radio" name="usuarioEmpregador" value="usuario"/>
+					<span>profissional</span>
+					<input type="radio" name="usuarioEmpregador" value="empregador"/>
+					<span>empregador</span>
+				</div>
+				<div class="form-item">
+					<input type="submit" value="Entrar" />
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="box formsHome formLogin2">
+		<div class="wrap">
+			<form>
+				<h3>Faça seu cadastro</h3>
+				<div class="form-item form-item-check">
+					<p class="label">Sou...</p>
+					<input type="radio" name="usuarioEmpregador" value="usuario"/>
+					<span>profissional</span>
+					<input type="radio" name="usuarioEmpregador" value="empregador"/>
+					<span>empregador</span>
+				</div>
+				<br class="clear"/>
+				<div class="form-item">
+					<label>E-mail</label>
+					<input type="text"/>
+				</div>
+				<div class="form-item">
+					<label>Confirme e-mail</label>
+					<input type="text"/>
+				</div>
+				<div class="form-item">
+					<label>Senha</label>
+					<input type="password"/>
+				</div>
+				<div class="form-item">
+					<label>Confirme Senha</label>
+					<input type="password"/>
+				</div>
+				<div class="form-item">
+					<label>CPF</label>
+					<input type="text"/>
+				</div>
+				
+				<div class="form-item">
+					<input type="submit" value="Cadastrar" />
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="contentHome">
+		<div class="wrap">
+			<ul class="mostrar">
+				<li class="vagas active">Vagas</li>
+				<li>Artes</li>
+			</ul>
+			
+			<div class="filter">
+				<select>
+					<option>ordenar por data</option>
+					<option>ordem alfabética</option>
+				</select>
+			</div>
+			<ul class="listaVagas">
+				<li>
+					<h3>UX Designer <span>Agencia X</span></h3>
+					<h4>Cadastrada em 27/12/2012 / Expira em 27/03/2013</h4>
+					<div class="steps first">
+						<h4>A Vaga</h4>
+						<div class="description">
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit. Lorem ipsum dolor sit ipsum dolor sit amet  <strong>	constectur adiscipling elit </strong> . </p>
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Concorrência</h4>
+						<div class="description">
+							<p>Envie a arte que você considera o seu melhor  trabalho em UXD até o dia 27 de março de 2013.</p>
+							<p>Serão aceitos trabalhos em .pdf, com o devido briefing.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Quero concorrer a esta vaga!</h4>
+						<a href="vagaInterna.html" class="btnConcorrer"><span>Concorrer à vaga</span></a>
+					</div>
+				</li>
+				<li>
+					<h3>UX Designer <span>Agencia X</span></h3>
+					<h4>Cadastrada em 27/12/2012 / Expira em 27/03/2013</h4>
+					<div class="steps first">
+						<h4>A Vaga</h4>
+						<div class="description">
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit. Lorem ipsum dolor sit ipsum dolor sit amet  <strong>	constectur adiscipling elit </strong> . </p>
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Concorrência</h4>
+						<div class="description">
+							<p>Envie a arte que você considera o seu melhor  trabalho em UXD até o dia 27 de março de 2013.</p>
+							<p>Serão aceitos trabalhos em .pdf, com o devido briefing.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Quero concorrer a esta vaga!</h4>
+						<a href="vagaInterna.html" class="btnConcorrer"><span>Concorrer à vaga</span></a>
+					</div>
+				</li>
+				<li>
+					<h3>UX Designer <span>Agencia X</span></h3>
+					<h4>Cadastrada em 27/12/2012 / Expira em 27/03/2013</h4>
+					<div class="steps first">
+						<h4>A Vaga</h4>
+						<div class="description">
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit. Lorem ipsum dolor sit ipsum dolor sit amet  <strong>	constectur adiscipling elit </strong> . </p>
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Concorrência</h4>
+						<div class="description">
+							<p>Envie a arte que você considera o seu melhor  trabalho em UXD até o dia 27 de março de 2013.</p>
+							<p>Serão aceitos trabalhos em .pdf, com o devido briefing.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Quero concorrer a esta vaga!</h4>
+						<a href="vagaInterna.html" class="btnConcorrer"><span>Concorrer à vaga</span></a>
+					</div>
+				</li>
+				<li>
+					<h3>UX Designer <span>Agencia X</span></h3>
+					<h4>Cadastrada em 27/12/2012 / Expira em 27/03/2013</h4>
+					<div class="steps first">
+						<h4>A Vaga</h4>
+						<div class="description">
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit. Lorem ipsum dolor sit ipsum dolor sit amet  <strong>	constectur adiscipling elit </strong> . </p>
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Concorrência</h4>
+						<div class="description">
+							<p>Envie a arte que você considera o seu melhor  trabalho em UXD até o dia 27 de março de 2013.</p>
+							<p>Serão aceitos trabalhos em .pdf, com o devido briefing.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Quero concorrer a esta vaga!</h4>
+						<a href="vagaInterna.html" class="btnConcorrer"><span>Concorrer à vaga</span></a>
+					</div>
+				</li>
+				<li>
+					<h3>UX Designer <span>Agencia X</span></h3>
+					<h4>Cadastrada em 27/12/2012 / Expira em 27/03/2013</h4>
+					<div class="steps first">
+						<h4>A Vaga</h4>
+						<div class="description">
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit. Lorem ipsum dolor sit ipsum dolor sit amet  <strong>	constectur adiscipling elit </strong> . </p>
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Concorrência</h4>
+						<div class="description">
+							<p>Envie a arte que você considera o seu melhor  trabalho em UXD até o dia 27 de março de 2013.</p>
+							<p>Serão aceitos trabalhos em .pdf, com o devido briefing.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Quero concorrer a esta vaga!</h4>
+						<a href="vagaInterna.html" class="btnConcorrer"><span>Concorrer à vaga</span></a>
+					</div>
+				</li>
+				<li>
+					<h3>UX Designer <span>Agencia X</span></h3>
+					<h4>Cadastrada em 27/12/2012 / Expira em 27/03/2013</h4>
+					<div class="steps first">
+						<h4>A Vaga</h4>
+						<div class="description">
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit. Lorem ipsum dolor sit ipsum dolor sit amet  <strong>	constectur adiscipling elit </strong> . </p>
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Concorrência</h4>
+						<div class="description">
+							<p>Envie a arte que você considera o seu melhor  trabalho em UXD até o dia 27 de março de 2013.</p>
+							<p>Serão aceitos trabalhos em .pdf, com o devido briefing.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Quero concorrer a esta vaga!</h4>
+						<a href="vagaInterna.html" class="btnConcorrer"><span>Concorrer à vaga</span></a>
+					</div>
+				</li>
+				<li>
+					<h3>UX Designer <span>Agencia X</span></h3>
+					<h4>Cadastrada em 27/12/2012 / Expira em 27/03/2013</h4>
+					<div class="steps first">
+						<h4>A Vaga</h4>
+						<div class="description">
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit. Lorem ipsum dolor sit ipsum dolor sit amet  <strong>	constectur adiscipling elit </strong> . </p>
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Concorrência</h4>
+						<div class="description">
+							<p>Envie a arte que você considera o seu melhor  trabalho em UXD até o dia 27 de março de 2013.</p>
+							<p>Serão aceitos trabalhos em .pdf, com o devido briefing.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Quero concorrer a esta vaga!</h4>
+						<a href="vagaInterna.html" class="btnConcorrer"><span>Concorrer à vaga</span></a>
+					</div>
+				</li>
+				<li>
+					<h3>UX Designer <span>Agencia X</span></h3>
+					<h4>Cadastrada em 27/12/2012 / Expira em 27/03/2013</h4>
+					<div class="steps first">
+						<h4>A Vaga</h4>
+						<div class="description">
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit. Lorem ipsum dolor sit ipsum dolor sit amet  <strong>	constectur adiscipling elit </strong> . </p>
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Concorrência</h4>
+						<div class="description">
+							<p>Envie a arte que você considera o seu melhor  trabalho em UXD até o dia 27 de março de 2013.</p>
+							<p>Serão aceitos trabalhos em .pdf, com o devido briefing.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Quero concorrer a esta vaga!</h4>
+						<a href="vagaInterna.html" class="btnConcorrer"><span>Concorrer à vaga</span></a>
+					</div>
+				</li>
+				<li>
+					<h3>UX Designer <span>Agencia X</span></h3>
+					<h4>Cadastrada em 27/12/2012 / Expira em 27/03/2013</h4>
+					<div class="steps first">
+						<h4>A Vaga</h4>
+						<div class="description">
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit. Lorem ipsum dolor sit ipsum dolor sit amet  <strong>	constectur adiscipling elit </strong> . </p>
+							<p>Lorem ipsum dolor sit amet constectur adiscipling elit.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Concorrência</h4>
+						<div class="description">
+							<p>Envie a arte que você considera o seu melhor  trabalho em UXD até o dia 27 de março de 2013.</p>
+							<p>Serão aceitos trabalhos em .pdf, com o devido briefing.</p>
+						</div>
+					</div>
+					<div class="steps">
+						<h4>Quero concorrer a esta vaga!</h4>
+						<a href="vagaInterna.html" class="btnConcorrer"><span>Concorrer à vaga</span></a>
+					</div>
+				</li>
+			</ul>
+			<div class="containerArtes"></div>
+		</div>
+	</div>
+</main>
+<footer role="contentinfo">
+	<div class="wrap">
+		<h1 class="logo">
+			<a href="index.html"><img src="img/logo-imageria-escuro.png" alt="Imageria"/></a>
+		</h6>
+		<ul>
+			<li>
+				<h2>Home</h2>
+				<ul>
+					<li><a href="#">Cadastro</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</li>
+			<li>
+				<h2>Vagas</h2>
+				<ul>
+					<li><a href="#">Busca</a></li>
+					<li><a href="#">Listagem</a></li>
+				</ul>
+			</li>
+			<li>
+				<h2>Artes</h2>
+				<ul>
+					<li><a href="#">Busca</a></li>
+					<li><a href="#">Listagem</a></li>
+				</ul>
+			</li>
+			<li>
+				<h2>A Imageria</h2>
+				<ul>
+					<li><a href="#">Créditos e Agradecimentos</a></li>
+					<li><a href="#">Contato e <br />Pedido de Features</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="copyright">
+		<div class="wrap">
+			<p>© Imageria - Alguns direitos reservados.</p>
+		</div>
+	</div>
+</footer>
+
+	<!-- g+ button -->
+	<script type="text/javascript">
+	  window.___gcfg = {lang: 'pt-BR'};
+	  (function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/plusone.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
+	</script>
+	
+	<!-- Twitter button -->
+	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	
+</body>
+</html>

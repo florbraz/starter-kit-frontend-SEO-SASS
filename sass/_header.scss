@@ -1,0 +1,25 @@
+header { background:url(../img/bg_top.png) top #000; min-height:64px; border-bottom:3px solid #b4002f; position:relative; z-index:9;
+	h1 { padding-top:13px; padding-right:20px; float:left; 
+		img  { width:80px; }
+	}
+	menu { border-left:1px solid #ed114a; border-right:1px solid #460214; float:left; 
+		li { float:left;  
+			&:first-child { display:none }
+		}
+		li a { font-family:$fontePequena; border-right:1px solid #ed114a; border-left:1px solid #460214; float:left; height:16px; line-height:16px; padding:24px 15px; color:#f5f5f5; font-size:14px; text-decoration:none;
+			&:hover{ background:url(../img/bg_top.png) bottom }
+			&.active { background:url(../img/bg_buttonTopActive.png) }
+		}
+	}
+	form { display:none; float:right; width:390px; padding-top:23px; 
+		input[type="text"],
+		input[type="password"] { @include inputEscuro; }
+		input[type="password"] { width:108px }
+		input[type="submit"] { @include submitRosa;} 
+		a.btn { padding: 8px 12px;}
+	}
+	.welcome { color:#000; font-family:dinM; font-size:14px; padding:30px 0; text-align:right; position:absolute; top:77px;
+		strong {  background:url(../img/spr/gt-rosa.png) no-repeat right center; font-weight:normal; padding-right:26px;}
+		a { margin-left:17px; color:$black; @include hover-link; }
+	}
+}

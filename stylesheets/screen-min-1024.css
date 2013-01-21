@@ -1,0 +1,341 @@
+@font-face {
+  font-family: 'myriad pro';
+  src: url("../fonts/MyriadPro-Semibold.eot");
+  src: url("../fonts/MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Semibold.woff") format("woff"), url("../fonts/MyriadPro-Semibold.ttf") format("truetype"), url("../fonts/MyriadPro-Semibold.svg#hneue") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'myriad pro';
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular.svg#hneue") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dinM';
+  src: url("../fonts/din_medium.eot");
+  src: url("../fonts/din_medium.eot?#iefix") format("embedded-opentype"), url("../fonts/din_medium.woff") format("woff"), url("../fonts/din_medium.ttf") format("truetype"), url("../fonts/din_medium.svg#dinM") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dinR';
+  src: url("../fonts/din_regular.eot");
+  src: url("../fonts/din_regular.eot?#iefix") format("embedded-opentype"), url("../fonts/din_regular.woff") format("woff"), url("../fonts/din_regular.ttf") format("truetype"), url("../fonts/din_regular.svg#dinR") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../sass/screen-min-1024.scss */
+body {
+  font-family: "myriad pro";
+}
+
+/* line 14, ../sass/screen-min-1024.scss */
+.wrap {
+  width: 940px;
+}
+
+/* line 16, ../sass/screen-min-1024.scss */
+.box .wrap {
+  width: 940px;
+}
+/* line 17, ../sass/screen-min-1024.scss */
+.box form {
+  margin-left: -40px;
+}
+/* line 18, ../sass/screen-min-1024.scss */
+.box form h3 {
+  margin-left: 40px;
+}
+/* line 19, ../sass/screen-min-1024.scss */
+.box form .form-item {
+  width: 450px;
+  margin-left: 40px;
+}
+/* line 21, ../sass/screen-min-1024.scss */
+.box form .form-item input[type="text"],
+.box form .form-item input[type="password"] {
+  width: 420px;
+}
+/* line 22, ../sass/screen-min-1024.scss */
+.box form .form-item textarea {
+  width: 420px;
+  height: 60px;
+}
+/* line 24, ../sass/screen-min-1024.scss */
+.box form .form-item-full {
+  width: 940px;
+}
+/* line 25, ../sass/screen-min-1024.scss */
+.box form .form-item-full input[type="text"] {
+  width: 910px;
+}
+/* line 26, ../sass/screen-min-1024.scss */
+.box form .form-item-full textarea {
+  width: 910px;
+  height: 60px;
+}
+
+/* line 30, ../sass/screen-min-1024.scss */
+header {
+  min-height: 78px;
+}
+/* line 31, ../sass/screen-min-1024.scss */
+header h1 {
+  padding-top: 13px;
+  padding-right: 36px;
+}
+/* line 32, ../sass/screen-min-1024.scss */
+header h1 img {
+  width: auto;
+}
+/* line 35, ../sass/screen-min-1024.scss */
+header menu li:first-child {
+  display: block;
+}
+/* line 36, ../sass/screen-min-1024.scss */
+header menu li a {
+  padding: 31px 30px;
+}
+/* line 38, ../sass/screen-min-1024.scss */
+header form {
+  display: inline;
+}
+/* line 39, ../sass/screen-min-1024.scss */
+header .welcome {
+  position: static;
+  color: #fff;
+}
+/* line 40, ../sass/screen-min-1024.scss */
+header .welcome a {
+  color: white;
+}
+
+/* line 43, ../sass/screen-min-1024.scss */
+.logged .content .breadcrumb {
+  visibility: visible;
+  height: auto;
+}
+
+/* line 44, ../sass/screen-min-1024.scss */
+.logged .dashboard .filter {
+  display: block;
+}
+
+/* line 46, ../sass/screen-min-1024.scss */
+.content h2.start {
+  float: none;
+  width: auto;
+  clear: none;
+  padding-top: 36px;
+}
+/* line 47, ../sass/screen-min-1024.scss */
+.content h2.start br {
+  display: block;
+}
+/* line 49, ../sass/screen-min-1024.scss */
+.content > .wrap > .share {
+  float: right;
+  background: none;
+  padding: 39px 0 0 0;
+  width: auto;
+  margin: 0;
+}
+/* line 50, ../sass/screen-min-1024.scss */
+.content .apresentacao {
+  display: block;
+}
+/* line 51, ../sass/screen-min-1024.scss */
+.content .loginRegister {
+  width: auto;
+}
+/* line 52, ../sass/screen-min-1024.scss */
+.content .loginRegister button {
+  margin-top: 40px;
+}
+/* line 53, ../sass/screen-min-1024.scss */
+.content .loginRegister button.login {
+  margin-left: 340px;
+  margin-right: 18px;
+}
+/* line 56, ../sass/screen-min-1024.scss */
+.content .formLogin form .form-item {
+  width: 286px;
+}
+/* line 57, ../sass/screen-min-1024.scss */
+.content .formLogin form .form-item input[type="text"], .content .formLogin form .form-item input[type="password"] {
+  width: 262px;
+}
+/* line 59, ../sass/screen-min-1024.scss */
+.content .formLogin .form-item input[type="submit"] {
+  width: 286px;
+}
+/* line 60, ../sass/screen-min-1024.scss */
+.content .formLogin2 .form-item input[type="submit"] {
+  margin-top: 16px;
+}
+/* line 61, ../sass/screen-min-1024.scss */
+.content .contentHome .filter {
+  width: 300px;
+  margin-top: -22px;
+  padding-left: 20px;
+}
+/* line 62, ../sass/screen-min-1024.scss */
+.content .filter {
+  margin-top: 0;
+}
+/* line 64, ../sass/screen-min-1024.scss */
+.content ul.listaVagas .steps {
+  margin-left: 40px;
+}
+/* line 65, ../sass/screen-min-1024.scss */
+.content ul.listaVagas .steps .btnConcorrer {
+  width: auto;
+}
+/* line 69, ../sass/screen-min-1024.scss */
+.content ul.listaArtes {
+  width: 980px;
+}
+
+/* line 72, ../sass/screen-min-1024.scss */
+.vagaInterna .share {
+  margin-top: -30px;
+  width: auto;
+  background: none;
+  padding: 0;
+}
+/* line 73, ../sass/screen-min-1024.scss */
+.vagaInterna h1 {
+  font-size: 40px;
+  float: none;
+  width: auto;
+}
+/* line 74, ../sass/screen-min-1024.scss */
+.vagaInterna h1 span {
+  padding-left: 10px;
+  font-size: 35px;
+}
+/* line 75, ../sass/screen-min-1024.scss */
+.vagaInterna h1 small {
+  display: none;
+}
+/* line 77, ../sass/screen-min-1024.scss */
+.vagaInterna .steps {
+  margin-left: 40px;
+  width: 273px;
+}
+/* line 78, ../sass/screen-min-1024.scss */
+.vagaInterna .steps h2 {
+  padding-bottom: 10px;
+}
+/* line 80, ../sass/screen-min-1024.scss */
+.vagaInterna .report {
+  position: static;
+  background-position: 4px 4px;
+  padding: 6px 3px 0 28px;
+}
+
+/* line 83, ../sass/screen-min-1024.scss */
+.formConcorrer {
+  margin-top: 50px;
+}
+
+/* line 85, ../sass/screen-min-1024.scss */
+.fb-comments {
+  width: 940px;
+}
+
+/* line 88, ../sass/screen-min-1024.scss */
+.dashboard h1 {
+  font-size: 40px;
+}
+/* line 89, ../sass/screen-min-1024.scss */
+.dashboard h1 .btn {
+  margin-top: 0;
+}
+
+/* line 93, ../sass/screen-min-1024.scss */
+.listaConcorrentes {
+  padding-top: 40px;
+  border-top: 1px solid #dadada;
+}
+/* line 94, ../sass/screen-min-1024.scss */
+.listaConcorrentes h2 {
+  font-size: 40px;
+}
+/* line 95, ../sass/screen-min-1024.scss */
+.listaConcorrentes > .btn {
+  display: block;
+}
+/* line 96, ../sass/screen-min-1024.scss */
+.listaConcorrentes ul {
+  margin-top: 40px;
+  border-top: 1px solid #dadada;
+}
+/* line 97, ../sass/screen-min-1024.scss */
+.listaConcorrentes .arte {
+  width: 250px;
+}
+/* line 98, ../sass/screen-min-1024.scss */
+.listaConcorrentes .infos {
+  width: 374px;
+  margin-top: 0;
+  font-size: 20px;
+}
+/* line 99, ../sass/screen-min-1024.scss */
+.listaConcorrentes .actions {
+  padding-top: 35px;
+}
+
+/* line 102, ../sass/screen-min-1024.scss */
+footer {
+  padding: 40px 0 0 0;
+  margin-top: 80px;
+}
+/* line 103, ../sass/screen-min-1024.scss */
+footer h1 {
+  display: inline;
+  float: left;
+  padding: 20px 40px 20px 0;
+  margin-right: 40px;
+  border-right: 1px solid #e9e9e9;
+}
+/* line 104, ../sass/screen-min-1024.scss */
+footer h2 {
+  padding: 0 0 5px 0;
+}
+/* line 106, ../sass/screen-min-1024.scss */
+footer ul li {
+  padding: 10px 0 0 0;
+  float: left;
+}
+/* line 107, ../sass/screen-min-1024.scss */
+footer ul ul {
+  width: 120px;
+}
+/* line 108, ../sass/screen-min-1024.scss */
+footer ul ul li {
+  float: none;
+  display: block;
+  font-size: 14px;
+  line-height: 1.1;
+}
+/* line 111, ../sass/screen-min-1024.scss */
+footer .copyright {
+  margin-top: 60px;
+  float: left;
+  width: 100%;
+}
+/* line 112, ../sass/screen-min-1024.scss */
+footer .copyright p {
+  text-align: center;
+}
+/* line 114, ../sass/screen-min-1024.scss */
+footer br {
+  display: inline;
+}

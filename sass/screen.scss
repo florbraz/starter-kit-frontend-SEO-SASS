@@ -1,0 +1,245 @@
+/* theming for Imageria by
+	Flor Braz
+	eu@florbraz.com
+*/
+
+@import "compass/typography/links/hover-link"; 
+ 
+@mixin pie { behavior:url(css/PIE.htc); position:relative; }
+
+// spriting
+
+$spr-spacing:30px;
+@import "spr/*.png";
+@include all-spr-sprites(true);
+
+// constantes;
+$black: #111;
+$cinza: #848484;
+$cinzaborda: #dadada;
+$cinzabranco: #e9e9e9;
+$fontePadrao: "myriad pro";
+$fontePequena:  "dinM";
+$fontePequenaR:  "dinR"; 
+$rosa :#b4002f;
+
+@import "_buttons";
+
+::selection {color:#fff; background-color:$rosa} ::-moz-selection { color:#fff; background-color:$rosa} ::-webkit-selection { color:#fff; background-color:$rosa}
+
+body { font-family:sans-serif; text-align:center; color:$black }
+.wrap { min-width:200px; width:95%; margin:0 auto; text-align:left; }
+.box { background:url(../img/bg_boxGradient.png) repeat-x top #ebebeb; float:left; clear: both; width:100%; font-size:14px; 
+	.wrap { width:300px; }
+	form { padding:0 0 50px 0; overflow:hidden;
+		h3 { font-size:25px; color:$black; font-family:"myriad pro"; letter-spacing:-1px; margin-top:50px; }
+		.form-item { float:left; width:300px;  padding-top:30px;  }
+		.form-item-full { float:left; width:300px;  padding-top:30px; 
+			input[type="text"] { width:268px; }
+			textarea { width:268px; height:40px; }
+		}
+		label, p.label { color:#444; font-size:20px; display:block; padding-bottom:5px;
+			span { font-size:15px; color:lighten($black, 40); }
+		}
+		input[type="text"],
+		input[type="password"],
+		textarea { @include inputClaro; line-height:1.2; width:268px; }
+		input[type="text"]:focus,
+		input[type="password"]:focus,
+		textarea:focus { overflow:auto; }
+		.form-item-check {
+			label,p.label {  padding-bottom:15px;  }
+			span { margin-right:15px; color:$cinza; font-size:15px }
+		}
+		input[type="submit"] { @include submitRosa; width:287px; height:44px; font-size:18px; float:right}
+	}
+}
+body { 
+	.filter { padding-top:0; float:right; position:relative; margin-top:36px;
+		select {width:300px; }
+	}
+	.dd { float:right;
+		.ddTitle { padding:0; height:38px; background:#fff; border-radius:4px; position:relative; z-index:5; cursor:pointer;
+			.arrow { width:43px; height:38px; display:block; background:url(../img/bg_arrow.png) no-repeat right top;}
+			span.ddTitleText span { font-family:$fontePequena; padding:11px; font-size:14px; display:block; color:$black; }
+		}
+		.ddChild { border-radius:0 0 4px 4px; margin-top:-3px;  z-index:4!important; padding-top:3px;
+			a { padding:11px; font-family:$fontePequena; font-size:14px;  
+				&:hover {  background:$rosa; color:#fff}
+				&.selected { background:$cinzaborda; color:$black;}
+			}
+		}
+		
+	}
+}
+
+@import "_header";
+@import "_footer";
+
+.logged .content .breadcrumb { visibility:hidden; height:15px; }
+.logged .dashboard .filter { display:none; }
+.content { position:relative; z-index:1;
+	.breadcrumb { font-size:14px; color:$black; padding: 40px 0;
+		strong { font-weight:bold; margin:0 4px;}
+		a { color:$rosa;  margin:0 4px; @include hover-link; }
+	}
+	& > .wrap { position:relative; z-index:5; 
+		& > .share { display:table; padding:25px 0 25px 0; margin:40px 0; background:$cinzabranco; width:100%;
+			.alignment { width:246px; margin:0 auto; }
+			.container { float:right; margin-left:25px}
+		}
+	}
+	h2.start { font-size:29px; letter-spacing:-1px; padding-top:0; color:$black; padding-bottom:15px; float:left; width:100%; clear:both;
+		br { display:none; }
+	}
+	.apresentacao { display:none }
+	.loginRegister { text-align:center; position:relative; height:100px; margin: 0 auto; width: 282px; overflow:hidden;
+		button { @include submitRosa; height:38px; width:auto; padding: 0 40px; margin-top:40px; font-size:14px; behavior:none;
+			&.login { margin-left:343px; margin-right:18px; margin-left:4px; margin-right: 18px; }
+			&.active {  padding:0 16px 0 24px;
+				span { @include botaoSeta; margin:0 10px; background-position:right 5px }
+			}
+		}
+	}
+	.formsHome { top:-40px; position:relative; margin-bottom:-40px }
+	.formLogin {  
+		form {
+			.form-item { width:300px; }
+			input[type="text"],
+			input[type="password"] { width:268px; }
+			input[type="submit"] { width:287px;  }
+		}
+		
+	}
+	.contentHome { width:100%; float:left; clear:left; padding:10px 0;	
+		.filter { float: right; margin-top:40px; background:#fff; padding-top:0; width:300px; position:relative;
+			select { width:300px; }
+		}
+		.containerArtes { display:none }
+		ul.listaArtes { margin-top:-43px; }
+	}
+	.mostrar { font-size:20px; color:$black; border-bottom:1px solid $cinzaborda; float:left; width:100%; clear:both; padding-top:40px;
+		li { margin-right:1px; margin-bottom:-7px; float:left; padding-bottom:12px; margin-right:15px; cursor:pointer;
+			&.active { background:url(../img/bg_menuSelected.png) no-repeat center bottom;  }
+		}
+	}
+	h1.page-title { font-size:40px; color:$black; line-height:1; float:left}
+	hr { float:left; width:100%; height:1px; border-top:1px solid $cinzaborda; background:#fff; border-width:1px 0 0 0; margin-top:40px; margin-bottom:-5px; }
+	ul.listaVagas {  float:left; width:100%;
+		li { width:100%; float:left; clear:both; padding:40px 0 47px; border-top:1px solid $cinzaborda;
+			&:first-child { border:0 }
+			&.concorrendo { background:url(../img/pic_concorrendo.png) no-repeat left 28px; padding-top:60px;
+				h3 { color:#494949 }
+				.steps {
+					h4 { color:#494949 }
+					.btnConcorrer { display:none }
+				}
+			}
+			&.vagaPersonalizada { padding-left:240px; width:700px; background:url(../img/pic_logo.jpg) no-repeat left center; padding-bottom:40px; display:none;
+				.steps { width:300px }
+				.step-concorrer { clear:both; margin-left:0; margin-top:40px; }
+			}
+		}
+		h3 { font-size:29px; color:$black ; padding-bottom:25px;
+			span { color:$cinza; padding-left:10px; font-size:25px }
+		}
+		h4 { font-size:13px; color:$black; margin: -15px 0 0 0;padding-bottom: 18px; }
+		.steps { color:$cinza; font-size:16px;  float:left; width:100%;   margin-left:0;
+			&.first { margin-left:0 }
+			h4 { font-size:20px; color:$black; padding-bottom:10px; margin-top:10px}
+			p { padding-bottom:16px }
+			.btnConcorrer { @include botaoRosa; margin-top:5px; float:left; padding:10px 20px; width: 246px;
+				&:hover {  }
+				&.active {
+					span { background-position:right -94px }
+				}
+			}
+		}
+		.formConcorrer { margin-top:10px; float:left; width:100%; clear:both;  }
+	}
+	.containerArtes { float:left; width:100%; overflow:hidden }
+	ul.listaArtes { width:328px; margin-left:-40px; float:left; 
+		li { width:286px; float:left; padding:40px 0 0 40px; padding-bottom:1px; margin-top:40px; overflow:hidden; border-top:1px solid $cinzaborda; }
+		h2 { font-size:29px; margin-top:5px; color:$black ; padding-bottom:5px; margin-left:20px; float:left; clear:both;
+			span { color:$cinza; padding-left:10px; font-size:25px }
+		}
+		h3 { font-size:20px; color:$black; padding-bottom:7px;  float:left; clear:both; width:100%;
+			a { color:$rosa; @include hover-link;  font-family:$fontePequena; font-size:14px;
+			}
+		}
+		h4 { clear:both; font-size:14px; color:$cinza; float:left; width:100%; padding-bottom: 16px; }
+		div.arte { float:left; padding-bottom:20px; width:100% ;
+			img { border:1px solid $cinzaborda; width:284px; height:auto; }
+			a { @extend .spr-report; background-color:#fff; background-position:4px 4px; padding:6px 3px 0 28px; color:$black; float:right; font-size:13px; font-family:$fontePequena; text-decoration:none; margin-top:-29px;  margin-right:0; height:21px; position:relative; border:1px solid $cinzaborda; width:auto;
+				&:hover { background-color:#eee }
+			}
+			
+		}
+		.btnDetalhes { @include botaoRosa; padding:10px 20px; width:243px; position:relative; }
+	}
+}
+
+.vagaInterna { position:relative;
+	.share { float:right; margin-top:-10px; width:248px; padding:25px; background:$cinzabranco;
+		.container { margin-left:25px!important; float:left; }
+		.container:first-child { margin-left:15px!important }
+	}
+	h1 { color:$black; font-size:28px;  line-height: 0.9; float:left; width:100%; margin-top: 15px;
+		span {color:$cinza; font-size:23px;}
+	}
+	.steps { color: #848484; font-size: 16px; float: left; width: 280px; padding-top: 25px;
+		&.first { margin-left:0 }
+		h2 { font-size: 20px; color: $black; }
+		p, address { padding-top:10px; }
+		a { color:$rosa; @include hover-link; }
+	}
+	.report { @extend .spr-report; background-color:#fff; background-position:19px 11px; padding:38px 3px 0 3px; color:$black; float:left; clear:both; font-size:11px; font-family:$fontePequena; text-decoration:none; margin-top:20px; height:21px; position:relative; border:1px solid $cinzaborda; width:auto;
+		&:hover { background-color:#eee }
+	} 
+}
+.formConcorrer { margin-top: 20px; float: left; width: 100%; 
+	.termos a { font-size:16px; color:$rosa; } 
+}
+.fb-comments { padding:40px 0 0 0; width: 300px; overflow: hidden; float:left;}
+
+.dashboard {
+	h1 { font-size:30px; }
+	h1 > span { float:left; margin-right:20px; }
+	h1 .btn { margin-top:20px; }
+	.btnAdicionar { @include botaoCinza; padding:10px 20px; margin-left:20px; }
+	ul.listaVagas h4 { padding-bottom:16px }
+	ul.listaVagas .steps { width:200px; padding-bottom:20px; }
+	ul.listaVagas .steps h4 { margin-top:0; }
+}
+.dashboard .vagaInterna { background:$cinzabranco; overflow:hidden; padding:20px; 
+	.steps { width:250px;}
+}
+.listaConcorrentes { float:left; width:100%;   margin-top: 40px;
+	.btn { float:right; margin-left:15px; }
+	& > .btn { display:none; }
+	h2 { font-size:30px; }
+	ul {  }
+	li { width:100%; float:left; clear:both; border-bottom:1px solid $cinzaborda; padding-bottom:40px; margin-top:40px; }
+	.arte { float:left; width:300px; margin-right:40px;
+		img { width:100%; height:auto; border:1px solid $cinzaborda; }
+	}
+	.infos {  width:300px; float:left; font-size:16px; margin-top:20px; color:$cinza;
+		h3 { font-size:20px; padding-bottom:16px; color:$black;
+			a { color:$rosa; @include hover-link }
+		}
+	}
+	.actions { float:right; width:240px; padding-top:11px; 
+		.btnCinza { float:right; margin-top:10px; }
+	}
+}
+
+
+@import "_ie"
+// Colors:
+// $black: #111;
+// $cinza: #848484;
+// $cinzaborda: #dadada;
+// $fontePadrao: "myriad pro";
+// $fontePequena:  "dinM";
+// $fontePequenaR:  "dinR"; 
+// $rosa : #b4002f;

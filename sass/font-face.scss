@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'myriad pro';
+    src: url('../fonts/MyriadPro-Semibold.eot');
+    src: url('../fonts/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MyriadPro-Semibold.woff') format('woff'),
+         url('../fonts/MyriadPro-Semibold.ttf') format('truetype'),
+         url('../fonts/MyriadPro-Semibold.svg#hneue') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad pro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MyriadPro-Regular.woff') format('woff'),
+         url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+         url('../fonts/MyriadPro-Regular.svg#hneue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dinM';
+    src: url('../fonts/din_medium.eot');
+    src: url('../fonts/din_medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din_medium.woff') format('woff'),
+         url('../fonts/din_medium.ttf') format('truetype'),
+         url('../fonts/din_medium.svg#dinM') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dinR';
+    src: url('../fonts/din_regular.eot');
+    src: url('../fonts/din_regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din_regular.woff') format('woff'),
+         url('../fonts/din_regular.ttf') format('truetype'),
+         url('../fonts/din_regular.svg#dinR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,116 @@
+// constantes;
+$black: #111;
+$cinza: #848484;
+$cinzaborda: #dadada;
+$cinzabranco: #e9e9e9;
+$fontePadrao: "myriad pro";
+$fontePequena:  "dinM";
+$fontePequenaR:  "dinR"; 
+$rosa :#b4002f;
+
+@import "font-face";
+
+	body  { font-family:$fontePadrao }
+	.wrap { width:940px; }
+	.box {
+		.wrap { width:940px; }
+		form { margin-left:-40px;
+			h3 { margin-left:40px; }
+			.form-item { width:450px; margin-left:40px; 
+				input[type="text"],
+				input[type="password"] { width:420px; }
+				textarea { width:420px; height:60px; }
+			}
+			.form-item-full {width:940px;
+				input[type="text"] { width:910px; }
+				textarea { width:910px; height:60px; }
+			}
+		}
+	}
+	header { min-height:78px; 
+		h1 { padding-top:13px; padding-right:36px; 
+			img { width:auto; }
+		}
+		menu li { 
+			&:first-child { display:block; }
+			a {padding:31px 30px;  }
+		}
+		form { display:inline; }
+		.welcome { position:static; color:#fff; 
+			a { color:#fff }
+		}
+	}
+	.logged .content .breadcrumb { visibility:visible; height:auto; }
+	.logged .dashboard .filter { display:block;}
+	.content { 
+		h2.start  { float:none; width:auto; clear:none; padding-top:36px;
+			br { display:block; }
+		}
+		& > .wrap > .share {float:right; background:none; padding:39px 0 0 0; width:auto; margin:0; }
+		.apresentacao { display:block; }
+		.loginRegister { width:auto;
+			button { margin-top:40px;
+				&.login { margin-left:340px; margin-right:18px }
+			}
+		}
+		.formLogin form .form-item { width:286px; 
+			input[type="text"], input[type="password"] { width:262px; }
+		}
+		.formLogin .form-item  input[type="submit"] { width: 286px; }
+		.formLogin2 .form-item  input[type="submit"] { margin-top:16px; }
+		.contentHome .filter { width:300px; margin-top:-22px; padding-left:20px;  }
+		.filter {  margin-top:0;  }
+		ul.listaVagas {  
+			.steps { margin-left:40px; width:280px; padding-top:0;
+				.btnConcorrer { width:auto; }
+			}
+			
+		}
+		ul.listaArtes { width:980px; }
+	}
+	.vagaInterna {
+		.share { margin-top:-30px; width:auto; background:none; padding:0 }
+		h1 { font-size:40px; float:none; width:auto;
+			span { padding-left:10px; font-size:35px; }
+			small { display:none; }
+		}
+		.steps {  margin-left: 40px; width: 273px;
+			h2 { padding-bottom: 10px; }
+		}
+		.report { position:static; background-position:4px 4px; padding:6px 3px 0 28px; }
+	}
+	
+	.formConcorrer {margin-top: 50px;}
+	
+	.fb-comments { width:940px; }
+	
+	.dashboard {
+		h1 { font-size:40px;
+			.btn { margin-top:0; }
+		}
+		ul.listaVagas .steps { width:200px; }
+	}
+	
+	.listaConcorrentes { padding-top: 40px; border-top:1px solid $cinzaborda;
+		h2 { font-size:40px; }
+		& > .btn { display:block; }
+		ul {  margin-top:40px; border-top:1px solid $cinzaborda; }
+		.arte { width:250px; }
+		.infos { width: 374px; margin-top:0; font-size:20px;}
+		.actions { padding-top: 35px; }
+	}
+	
+	footer { padding:40px 0 0 0; margin-top:80px;
+		h1 { display:inline; float:left; padding:20px 40px 20px 0;  margin-right:40px; border-right:1px solid darken($cinzabranco, 0); }
+		h2 {  padding:0 0 5px 0; }
+		ul {
+			li { padding:10px 0 0 0; float:left;}
+			ul { width:120px; 
+				li { float:none; display:block; font-size:14px; line-height:1.1 }
+			}
+		}
+		.copyright { margin-top:60px; float:left; width:100%; 
+			p { text-align:center; }
+		}
+		br { display:inline; }
+	}
