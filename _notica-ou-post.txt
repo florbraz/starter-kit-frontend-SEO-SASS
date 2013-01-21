@@ -13,45 +13,43 @@ Exemplo adaptado do exemplo de microformat hNews, SEO friendly.
       Renewing US ties with Latin America, Obama says he wants to lead, not lecture, on democracy</a>
   </h4>
 	
-  <div>
+  <div class="entry-infos"> <!-- neste trecho utilizamos as classes de vcard e author dos microformats -->
     <small> by 
       <span class="author vcard"><a class="email fn" 
         href="mailto:ben.feller@example.org">BEN FELLER</a></span>, 
       <span class="source-org vcard"><a class="url org fn" 
-        href="http://www.ap.org">Associated Press</a></span>,
-      <a href="http://www.ap.org/newsvalues/index.html" rel="principles"><img src="/wikidir/images/principles-button-blue.png</a>  - 
+        href="http://www.ap.org">Associated Press</a></span>
+        - 
       <span class="updated dtstamp" 
         title="2009-04-19T18:17:29Z">19 April 2009 18:17 GMT</span>
     </small>
   </div>
 	
-  <div class="entry-content">
+  <div class="entry-content"> <!-- o conteúdo do post ou notícia deve estar dentro da classe "entry-content" -->
     <p><span class="dateline">PORT-OF-SPAIN, Trinidad</span> (AP) -- Defending his brand 
       of world politics, President Barack Obama said Sunday...</p>
     <p>Both Graham and McCaskill spoke on "Fox News Sunday." Ensign was interviewed on CNN's 
       "State of the Union."</p>
   </div>
 	
-  <div>
+  <div class="tags"> <!-- as tags devem ser links com o atributo rel="tag" -->
     <small>
-      News Topics:
+      Tags:
       <a href="http://example.org/Summits" rel="tag">Summits</a>, ...,
       <a href="http://example.org/Government+policy" rel="tag">Government policy</a>
-      <br/>
-      People, Places and Companies: 
       <a href="http://example.org/Barack+Obama" rel="tag">Barack Obama</a>, ..., 
       <a href="http://example.org/Hugo+Chavez" rel="tag">Hugo Chavez</a> 
     </small>
   </div>
 
-  <div class="geo">
+  <div class="geo"> <!-- caso exista geolocalização por coordenadas, devemos usar as classes de latitude e longitude -->
     <small>
       Lat: <span class="latitude">10.65715</span> 
       Long: <span class="longitude">-61.483582</span>
     </small>
   </div>
 
-  <div>
+  <div class="inner-copyright"> <!-- caso exista a necessidade de colocar informação de copyright dentro do post/notícia, utilizar um link com o atributo rel="item-license" -->
     <small>
       Copyright 2009 The <a rel="item-license" href="http://www.ap.org">Associated Press</a>. 
       All rights reserved. This material may not be published, broadcast, rewritten or redistributed.
