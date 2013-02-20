@@ -1,0 +1,8 @@
+Popins, modais, conteúdos de colorbox, etc
+
+//html
+
+<div id="popin" role="dialog" aria-labelledby="popin-title"> <!-- o role dialog avisa os leitores de tela que um popin abriu. o "aria labelled by" diz qual é o título deste popin (por exemplo, no caso de ser um alerta)  -->
+    <h3 id="popin-title">Título do popin</h3>
+    <-- Corpo do popin -->
+</div>
