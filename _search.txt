@@ -13,7 +13,14 @@ CSS
  
 Aqui estamos resetando o estilo default que o Chrome insere para o input search, facilitando a estilização posterior.
 
-input[type=search] { -webkit-appearance: textfield; font-size: medium; background: #fff; }
+input[type=search] { 
+	-webkit-appearance: textfield; 
+	font-size: medium; 
+	background: #fff; 
+	box-sizing:content-box; 
+	-webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: content-box;    /* Firefox, other Gecko */  
+}
 ::-webkit-search-decoration,
 ::-webkit-search-cancel-button,
 ::-webkit-search-results-button,
@@ -23,7 +30,10 @@ input[type=search] { -webkit-appearance: textfield; font-size: medium; backgroun
 
 Depois, para estilizar, tenha um fallback utilizando classe ou id, pois o IE não interpreta o input type="search" e ficará sem estilo.
 
-input[type=search], input.search { // regras de estilo }
+input[type=search], 
+input.search { 
+	// regras de estilo 
+}
 
 
 JS
